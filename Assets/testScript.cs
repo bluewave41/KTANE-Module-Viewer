@@ -26,7 +26,7 @@ public class testScript : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Tab)) {
 			uiText.text = name;
 		} else {
-			uiText.text = "";
+			uiText.text = "Module Name Viewer";
 		}
         if(!done) {
             KMBombModule[] modules = FindObjectsOfType<KMBombModule>();
@@ -49,7 +49,7 @@ public class testScript : MonoBehaviour {
 
 	private void HandleStateChange(KMGameInfo.State state) {
 		if(state != KMGameInfo.State.Gameplay) {
-			uiText.text = "";
+			uiText.text = "Module Name Viewer";
 			done = false;
 		}
 	}

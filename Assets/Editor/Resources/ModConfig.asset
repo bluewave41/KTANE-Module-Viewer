@@ -14,7 +14,10 @@ MonoBehaviour:
   id: moduleNameViewer
   title: Module Name Viewer
   author: bluewave41
-  description: 
+  description: Shows the name of the last highlighted module in the bottom left corner
+    when the Tab key is held. Very useful for playing with large batches of new mods
+    where it's not feasible to have the expert attempt to locate the name of an unknown
+    mod.
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: 0d1e16f237eabfe439584790a025d1b1, type: 3}
