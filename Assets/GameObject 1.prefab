@@ -150,8 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Service: {fileID: 114332078108751468}
   Info: {fileID: 114386516510638968}
-  serviceEnabled: 1
   done: 0
+  name: 
   uiText: {fileID: 114978282240222834}
 --- !u!114 &114978282240222834
 MonoBehaviour:
