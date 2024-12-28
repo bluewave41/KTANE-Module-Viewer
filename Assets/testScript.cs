@@ -18,16 +18,10 @@ public class testScript : MonoBehaviour {
 	public string name;
     public UnityEngine.UI.Text uiText;
 
-	void Awake() {
-		
-	}
-	
-	// Use this for initialization
 	void Start () {
 		Info.OnStateChange += HandleStateChange;
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.Tab)) {
 			uiText.text = name;
